@@ -1,0 +1,1 @@
+Bu proyektni dizayni ozim qilmagaman --- https://preview.colorlib.com/#gricklo

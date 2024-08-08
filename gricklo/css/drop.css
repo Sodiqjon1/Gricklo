@@ -1,0 +1,46 @@
+.header_top_left_menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 30%;
+    }
+    .header_top_left_menu ul li{
+        margin-left: 19%;
+        position: relative;
+    }
+    .header_top_left_menu ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition: 0.5s;
+        font-family: "Work Sans", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    .header_top_left_menu ul li a:hover{
+        color: rgb(37, 139, 255);
+        transition: 0.3s;
+    }
+    .drop a:hover{
+        color: orangered;
+    }
+    ul li .drop{
+        width: 180px;
+        height: fit-content;
+        padding: 30px;
+        position: absolute;
+        display: block;
+        top: 100%;
+        transition: 0.5s;
+        visibility: hidden;
+        opacity: 0;
+        background-color: rgb(76, 80, 121);
+    }
+    ul li:hover .drop{
+        transform: translateY(14px);
+        visibility: visible;
+        opacity: 1;
+    }
+    ul li .drop{
+        line-height: 30px;
+        display: block;
+    }

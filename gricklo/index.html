@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="./css/pc.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 426px)" href="./css/phone.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)"  href="./css/drop.css">
+    <link rel="stylesheet"  href="./css/btn.css">
+    <link rel="stylesheet" href="./css/aniation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+
+        .swiper {
+          width: 1500px;
+          height: 428px;
+          gap: 5px;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+    <title>Document</title>
+</head>
+<body>
+   <header class="header">
+        <nav class="header_top">
+            <div class="header_top_left">
+                <img src="./img/logo (1).png" alt="">
+                <div class="header_top_left_inp hid">
+                    <button>🔍</button>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="header_top_left_menu">
+                    <button class="menu" onclick="a()">MENU ≡</button>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <a href="">Listing</a>
+                            <div class="drop hid">
+                                <a href="" class="hid">Listing</a> <br>
+                                <a href="" class="hid">Listing Details</a>
+                            </div>
+                        </li>
+                        <li><a href="">About</a></li>
+                        <li>
+                            <a href="">Blog</a>
+                            <div class="drop hid">
+                                <a href="" class="hid">Blog</a><br>
+                                <a href="" class="hid">Blog Details</a>
+                                <a href="" class="hid">Elements</a>
+                            </div>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_top_right hid">
+                <a href="">Sing in</a>
+                <div class="header_top_right_div">
+                    <button class="header_top_right_div_1">
+                    <div class="header_top_right_div_3">Add Listing</div>
+                    <div class="header_top_right_div_2"></div>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <nav class="header_bottom">
+            <div class="header_bottom_1">
+                <h1>Listing made easy.</h1>
+                <p>
+                    Explore vacation rentals, bar & restaurants and experiences. <br>
+                    Find amazing places to visit
+                </p>
+            </div>
+            <div class="header_bottom_2">
+                <input type="text" placeholder="Ex: Food, Service, Hotel, Shopping">
+                <input type="text" placeholder="Your City....">
+                <button>🔎Search</button>
+            </div>
+            <div class="header_bottom_3">
+                <button>Restaurant</button>
+                <button>Home</button>
+                <button>Party</button> <br class="br">
+                <button>Shopping</button>
+                <button>Hotel</button>
+            </div>
+        </nav>
+   </header>
+   <main class="main">
+        <section class="main_section first">
+            <div class="main_section_top">
+                <h2>Top Destination</h2>
+            </div>
+            <div class="main_section_bottom">
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+                <div class="card">
+                    <div class="main_section_bottom_card">
+                        <div class="main_section_bottom_card_border"></div>
+                        <div class="main_section_bottom_card_name">Explore ></div>
+                    </div>
+                    <h3 class="card_h3">New York</h3>
+                </div>
+            </div>
+        </section>
+        <section class="main_section_second">
+            <div class="main_section_top">
+                <h2>Popular Things To do</h2>
+                <p>Popular Exclusive Listings In Our Directory</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card_swiper">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card_swiper">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_swiper hid">
+                            <img src="./img/directory3.jpg.webp">
+                            <div class="card_swiper_center">
+                                <h3>Gloria Fast Food Restaurant</h3>
+                                <p>75 Prince Street, green road, NY, USAk</p>
+                            </div>
+                            <div class="card_swiper_bottom">
+                                <p>Food & Restaurant</p>
+                                <div>
+                                    <div>📞</div>
+                                    <div>✉︎</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+   </main>
+   <footer class="footer">
+    <div class="footer_left">
+        <h4>
+            <img src="./img/logo (1).png" alt="">
+        </h4>
+        <p>
+            Seddo eiusmod tempor incididunt ut  <br>
+            labore et dolore magna aliqua. Conse  <br>
+            ctetur pisicin elit, sed do eiusmod tempor.
+        </p>
+        <h4>Connect</h4>
+        <div>
+            <div>📞</div>
+            <div>📷</div>
+            <div>📘</div>
+            <div>🦅</div>
+            <div>🚗</div>
+            <div>🛸</div>
+        </div>
+    </div>
+    <div class="footer_center">
+        <div class="footer_center_left">
+            <h4>Navigation</h4>
+            <div>
+                <p>Home</p>
+                <p>About</p>
+                <p>Services</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+        </div>
+        <div class="footer_center_right">
+            <h4>Services</h4>
+            <div>
+                <p>Care</p>
+                <p>Treatment</p>
+                <p>Trainingl</p>
+                <p>Hygienic Care</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer_right">
+        <h4>Subscribe newsletter</h4>
+        <p>Subscribe our newsletter to get updates about our <br> services and offers.</p>
+        <input type="text">
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
